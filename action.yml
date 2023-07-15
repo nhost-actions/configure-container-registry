@@ -1,0 +1,8 @@
+name: "Configure Nhost's Container Registry"
+description: "Configure Nhost's Container Registry"
+runs:
+  using: "composite"
+  steps:
+    - run: |
+        nhost docker-credentials configure
+      shell: bash
