@@ -4,7 +4,7 @@ Configures docker to access Nhost's container registry
 
 ## Usage
 
-You can use this action to configure docker to use Nhost's container registry:
+You can use this action to configure docker to use Nhost's container registry so you can build and push using regular docker mechanisms:
 
 
 ```yaml
