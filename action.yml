@@ -4,5 +4,5 @@ runs:
   using: "composite"
   steps:
     - run: |
-        sudo nhost docker-credentials configure
+        nhost docker-credentials configure --no-interactive
       shell: bash
